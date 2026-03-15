@@ -22,7 +22,7 @@ def menu_inicial():
             senha_input = input("Digite a senha: ")
             for colaborador in colaboradores:
                 if colaborador["usuario"] == usuario_input and colaborador["senha"] == senha_input:
-                    print("Acesso concedido.")
+                    print("Acesso concedido..")
                     pausa(2)
                     limpar_tela()
                     menu()
